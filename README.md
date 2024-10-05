@@ -20,29 +20,32 @@ if err != nil {
 
 #### Supported RM Endpoints
 
-| Endpoint                                                                                                       |         Status         | Min RM Version |
-| -------------------------------------------------------------------------------------------------------------- | :--------------------: | :------------: |
-| [Assets](https://help.sonatype.com/repomanager3/rest-and-integration-api/assets-api)                           |      :full_moon:       |                |
-| [Blob Store](https://help.sonatype.com/repomanager3/rest-and-integration-api/blob-store-api)                   |       :new_moon:       |      3.19      |
-| [Components](https://help.sonatype.com/repomanager3/rest-and-integration-api/components-api)                   | :waning_gibbous_moon:  |                |
-| Content Selectors                                                                                              |       :new_moon:       |      3.19      |
-| [Email](https://help.sonatype.com/repomanager3/rest-and-integration-api/email-api)                             |       :new_moon:       |      3.19      |
-| [IQ Server](https://help.sonatype.com/repomanager3/rest-and-integration-api/iq-server-api)                     |       :new_moon:       |      3.19      |
-| [Licensing](https://help.sonatype.com/repomanager3/rest-and-integration-api/licensing-api)                     |       :new_moon:       |      3.19      |
-| [Lifecycle](https://help.sonatype.com/repomanager3/rest-and-integration-api/lifecycle-api)                     |       :new_moon:       |                |
-| [Maintenance](https://help.sonatype.com/repomanager3/rest-and-integration-api/maintenance-api) _pro_           | :waning_crescent_moon: |                |
-| [Nodes](https://help.sonatype.com/repomanager3/rest-and-integration-api/nodes-api) _pro_                       |       :new_moon:       |                |
-| [Read-Only](https://help.sonatype.com/repomanager3/rest-and-integration-api/read-only-api)                     |      :full_moon:       |                |
-| [Repositories](https://help.sonatype.com/repomanager3/rest-and-integration-api/repositories-api)               |      :full_moon:       |                |
-| Routing Rules                                                                                                  |       :new_moon:       |      3.17      |
-| [Search](https://help.sonatype.com/repomanager3/rest-and-integration-api/search-api)                           | :waning_gibbous_moon:  |                |
-| [Script](https://help.sonatype.com/repomanager3/rest-and-integration-api/script-api)                           |      :full_moon:       |                |
-| [Security Management](https://help.sonatype.com/repomanager3/rest-and-integration-api/security-management-api) |       :new_moon:       |      3.19      |
-| [Staging](https://help.sonatype.com/repomanager3/staging) _pro_                                                | :waning_gibbous_moon:  |                |
-| [Status](https://help.sonatype.com/repomanager3/rest-and-integration-api/status-api)                           |      :full_moon:       |                |
-| [Support](https://help.sonatype.com/repomanager3/rest-and-integration-api/support-api)                         |      :full_moon:       |                |
-| [Tagging](https://help.sonatype.com/repomanager3/tagging) _pro_                                                | :waning_gibbous_moon:  |                |
-| [Tasks](https://help.sonatype.com/repomanager3/rest-and-integration-api/tasks-api)                             |       :new_moon:       |                |
+| Endpoint                                                                                  |         Status         | Min RM Version |
+| ----------------------------------------------------------------------------------------- | :--------------------: | :------------: |
+| [Assets](https://help.sonatype.com/en/assets-api.html)                                    |      :full_moon:       |                |
+| [Blob Store](https://help.sonatype.com/en/blob-store-api.html)                            |       :new_moon:       |      3.19      |
+| [Cleanup Policies](https://help.sonatype.com/en/cleanup-policies-api.html)                |       :new_moon:       |      3.70      |
+| [Components](https://help.sonatype.com/en/components-api.html)                            | :waning_gibbous_moon:  |                |
+| [Content Selectors](https://help.sonatype.com/en/content-selectors.html)                  |       :new_moon:       |      3.19      |
+| [Email](https://help.sonatype.com/en/email-api.html)                                      |       :new_moon:       |      3.19      |
+| [HTTP Configuration](https://help.sonatype.com/en/http-configuration-api.html)            |       :new_moon:       |                |
+| [IQ Server](?)                                                                            |       :new_moon:       |      3.19      |
+| [Licensing](https://help.sonatype.com/en/licensing-api.html)                              |       :new_moon:       |      3.19      |
+| [Lifecycle](https://help.sonatype.com/en/lifecycle-api.html)                              |       :new_moon:       |                |
+| [Maintenance](https://help.sonatype.com/en/maintenance-api.html) _pro_                    | :waning_crescent_moon: |                |
+| [Nodes](https://help.sonatype.com/en/nodes-api.html) _pro_                                |       :new_moon:       |                |
+| [Read-Only](https://help.sonatype.com/en/read-only-api.html)                              |      :full_moon:       |                |
+| [Repositories](https://help.sonatype.com/en/repositories-api.html)                        |      :full_moon:       |                |
+| [Repository Firewall](https://help.sonatype.com/en/sonatype-repository-firewall-api.html) |       :new_moon:       |                |
+| [Routing Rules](https://help.sonatype.com/en/routing-rules.html)                          |       :new_moon:       |      3.17      |
+| [Search](https://help.sonatype.com/en/search-api.html)                                    | :waning_gibbous_moon:  |                |
+| [Script](https://help.sonatype.com/en/script-api.html)                                    |      :full_moon:       |                |
+| [Security Management](https://help.sonatype.com/en/security-management-api.html)          |       :new_moon:       |      3.19      |
+| [Staging](https://help.sonatype.com/repomanager3/staging) _pro_                           | :waning_gibbous_moon:  |                |
+| [Status](https://help.sonatype.com/en/status-api.html)                                    |      :full_moon:       |                |
+| [Support](https://help.sonatype.com/en/support-api.html)                                  |      :full_moon:       |                |
+| [Tagging](https://help.sonatype.com/en/tagging.html) _pro_                                | :waning_gibbous_moon:  |                |
+| [Tasks](https://help.sonatype.com/en/tasks-api.html)                                      |       :new_moon:       |                |
 
 #### Supported Provisioning API
 
@@ -70,32 +73,65 @@ if err != nil {
 
 #### Supported IQ Endpoints
 
-| Endpoint                                                                                                             |   Status    | Min IQ Version |
-| -------------------------------------------------------------------------------------------------------------------- | :---------: | :------------: |
-| [Application](https://help.sonatype.com/iqserver/automating/rest-apis/application-rest-apis---v2)                    | :full_moon: |                |
-| [Authorization Configuration](https://help.sonatype.com/iqserver/automating/rest-apis)                               | :full_moon: |      r70       |
-| [Component Details](https://help.sonatype.com/iqserver/automating/rest-apis/component-details-rest-api---v2)         | :full_moon: |                |
-| [Component Evaluation](https://help.sonatype.com/iqserver/automating/rest-apis/component-evaluation-rest-apis---v2)  | :full_moon: |                |
-| [Component Labels](https://help.sonatype.com/iqserver/automating/rest-apis/component-labels-rest-api---v2)           | :full_moon: |                |
-| [Component Remediation](https://help.sonatype.com/iqserver/automating/rest-apis/component-remediation-rest-api---v2) | :full_moon: |      r64       |
-| [Component Search](https://help.sonatype.com/iqserver/automating/rest-apis/component-search-rest-apis---v2)          | :full_moon: |                |
-| [Component Versions](https://help.sonatype.com/iqserver/automating/rest-apis/component-versions-rest-api---v2)       | :full_moon: |                |
-| [Component Waivers](https://help.sonatype.com/iqserver/automating/rest-apis/component-waivers-rest-api---v2)         | :new_moon:  |      r76       |
-| [Configuration](https://help.sonatype.com/iqserver/automating/rest-apis/configuration-rest-api---v2)                 | :new_moon:  |      r65       |
-| [Data Retention Policy](https://help.sonatype.com/iqserver/automating/rest-apis/data-retention-policy-rest-api---v2) | :full_moon: |                |
-| [Organization](https://help.sonatype.com/iqserver/automating/rest-apis/organization-rest-apis---v2)                  | :full_moon: |                |
-| [Policy Violation](https://help.sonatype.com/iqserver/automating/rest-apis/policy-violation-rest-api---v2)           | :full_moon: |                |
-| [Policy Waiver](https://help.sonatype.com/iqserver/automating/rest-apis/policy-waiver-rest-api---v2)                 | :new_moon:  |      r71       |
-| [Promote Scan](https://help.sonatype.com/iqserver/automating/rest-apis/promote-scan-rest-api---v2)                   | :new_moon:  |                |
-| [Report-related](https://help.sonatype.com/iqserver/automating/rest-apis/report-related-rest-apis---v2)              | :full_moon: |                |
-| [Role](https://help.sonatype.com/iqserver/automating/rest-apis/role-rest-api---v2)                                   | :full_moon: |      r70       |
-| [SAML](https://help.sonatype.com/iqserver/automating/rest-apis/saml-rest-api---v2)                                   | :new_moon:  |      r74       |
-| [Source Control](https://help.sonatype.com/integrations/nexus-iq-for-github)                                         | :full_moon: |                |
-| [Success Metrics Data](https://help.sonatype.com/iqserver/automating/rest-apis/success-metrics-data-rest-api---v2)   | :full_moon: |                |
-| [Users](https://help.sonatype.com/iqserver/automating/rest-apis/user-rest-api---v2)                                  | :full_moon: |      r70       |
-| [User Token](https://help.sonatype.com/iqserver/automating/rest-apis/user-token-rest-api---v2)                       | :new_moon:  |      r76       |
-| [Vulnerability Details](https://help.sonatype.com/iqserver/automating/rest-apis/vulnerability-details-rest-api---v2) | :new_moon:  |      r75       |
-| [Webhooks](https://help.sonatype.com/iqserver/automating/iq-server-webhooks)                                         | :full_moon: |                |
+| Endpoint                                                                                                                            |   Status    | Min IQ Version |
+| ----------------------------------------------------------------------------------------------------------------------------------- | :---------: | :------------: |
+| [Advanced Search](https://help.sonatype.com/en/advanced-search-rest-api.html)                                                       | :new_moon:  |                |
+| [Applicable Waivers](https://help.sonatype.com/en/applicable-waivers-rest-api.html)                                                 | :new_moon:  |                |
+| [Application Categories](https://help.sonatype.com/en/application-categories-rest-api.html)                                         | :new_moon:  |                |
+| [Application](https://help.sonatype.com/en/application-rest-api.html)                                                               | :full_moon: |                |
+| [Atlassian Crowd](https://help.sonatype.com/en/atlassian-crowd-rest-api.html)                                                       | :new_moon:  |                |
+| [Audit Log](https://help.sonatype.com/en/audit-log-rest-api.html)                                                                   | :new_moon:  |      r175      |
+| [Authorization Configuration](https://help.sonatype.com/en/authorization-configuration-rest-api.html)                               | :full_moon: |      r70       |
+| [Call Flow Analysis](https://help.sonatype.com/en/call-flow-analysis-rest-api.html)                                                 | :new_moon:  |      r176      |
+| [Component Claim](https://help.sonatype.com/en/component-claim-rest-api.html)                                                       | :new_moon:  |                |
+| [Component Details](https://help.sonatype.com/en/component-details-rest-api.html)                                                   | :full_moon: |                |
+| [Component Evaluation](https://help.sonatype.com/en/component-evaluation-rest-api.html)                                             | :full_moon: |                |
+| [Component Labels](https://help.sonatype.com/en/component-labels-rest-api.html)                                                     | :full_moon: |                |
+| [Component Remediation](https://help.sonatype.com/en/component-remediation-rest-api.html)                                           | :full_moon: |      r64       |
+| [Component Search](https://help.sonatype.com/en/component-search-rest-api.html)                                                     | :full_moon: |                |
+| [Component in Quarantine](https://help.sonatype.com/en/components-in-quarantine-rest-api.html)                                      | :new_moon:  |                |
+| [Component Versions](https://help.sonatype.com/en/component-versions-rest-api.html)                                                 | :full_moon: |                |
+| [Component Waivers](https://help.sonatype.com/en/component-waivers-rest-api.html)                                                   | :new_moon:  |      r76       |
+| [Configuration](https://help.sonatype.com/en/configuration-rest-api.html)                                                           | :new_moon:  |      r65       |
+| [Cross-Stage Policy Violation](https://help.sonatype.com/en/cross-stage-policy-violation-rest-api.html)                             | :new_moon:  |                |
+| [CycloneDx](https://help.sonatype.com/en/cyclonedx-rest-api.html)                                                                   | :new_moon:  |                |
+| [Data Retention Policy](https://help.sonatype.com/en/data-retention-policy-rest-api.html)                                           | :full_moon: |                |
+| [Feature Configuration](https://help.sonatype.com/en/feature-configuration-rest-api.html)                                           | :new_moon:  |      r149      |
+| [Firewall](https://help.sonatype.com/en/firewall-rest-api.html)                                                                     | :new_moon:  |      r171      |
+| [HTTP Proxy Server Configuration](https://help.sonatype.com/en/http-proxy-server-configuration-rest-api.html)                       | :new_moon:  |                |
+| [Jira Configuration](https://help.sonatype.com/en/jira-configuration-rest-api.html)                                                 | :new_moon:  |      r139      |
+| [License Legal](https://help.sonatype.com/en/license-legal-rest-api.html)                                                           | :new_moon:  |                |
+| [Mail](https://help.sonatype.com/en/mail-rest-api.html)                                                                             | :new_moon:  |                |
+| [Manifest Evaluation](https://help.sonatype.com/en/manifest-evaluation-rest-api.html)                                               | :new_moon:  |                |
+| [Organizations](https://help.sonatype.com/en/organizations-rest-api.html)                                                           | :full_moon: |                |
+| [Policy Violation](https://help.sonatype.com/en/policy-violation-rest-api.html)                                                     | :full_moon: |                |
+| [Policy Waiver](https://help.sonatype.com/en/policy-waiver-rest-api.html)                                                           | :new_moon:  |      r71       |
+| [Product License](https://help.sonatype.com/en/product-license-rest-api.html)                                                       | :new_moon:  |                |
+| [Promote Scan](https://help.sonatype.com/en/promote-scan-rest-api.html)                                                             | :new_moon:  |                |
+| [Release from Quarantine](https://help.sonatype.com/en/release-from-quarantine-rest-api.html)                                       | :new_moon:  |                |
+| [Report](https://help.sonatype.com/en/report-rest-api.html)                                                                         | :new_moon:  |                |
+| [Repository Firewall Evaluation](https://help.sonatype.com/en/firewall-evaluation-api.html)                                         | :new_moon:  |                |
+| [Repository Results View](https://help.sonatype.com/en/repository-results-view-rest-api.html)                                       | :new_moon:  |                |
+| [Reverse Proxy Authentication Configuration](https://help.sonatype.com/en/reverse-proxy-authentication-configuration-rest-api.html) | :new_moon:  |                |
+| [Role](https://help.sonatype.com/en/role-rest-api.html)                                                                             | :full_moon: |      r70       |
+| [SAML](https://help.sonatype.com/en/saml-rest-api.html)                                                                             | :new_moon:  |      r74       |
+| [Security Vulnerability Override](https://help.sonatype.com/en/security-vulnerability-override-api.html)                            | :new_moon:  |                |
+| [Source Control](https://help.sonatype.com/en/source-control-rest-api.html)                                                         | :full_moon: |                |
+| [Source Control Configuration](https://help.sonatype.com/en/source-control-configuration-rest-api.html)                             | :new_moon:  |      r140      |
+| [Source Control Evaluation](https://help.sonatype.com/en/source-control-evaluation-rest-api.html)                                   | :new_moon:  |                |
+| [SPDX](https://help.sonatype.com/en/spdx-rest-api.html)                                                                             | :new_moon:  |                |
+| [Similar Waivers](https://help.sonatype.com/en/similar-waivers-rest-api.html)                                                       | :new_moon:  |                |
+| [Stale Waivers](https://help.sonatype.com/en/stale-waivers-rest-api.html)                                                           | :new_moon:  |                |
+| [Success Metrics Data](https://help.sonatype.com/en/success-metrics-data-rest-api.html)                                             | :full_moon: |                |
+| [Third-Party Analysis](https://help.sonatype.com/en/third-party-scan-rest-api.html)                                                 | :new_moon:  |                |
+| [Transitive Waivers](https://help.sonatype.com/en/transitive-waivers-rest-api.html)                                                 | :new_moon:  |                |
+| [User](https://help.sonatype.com/en/user-rest-api.html)                                                                             | :full_moon: |      r70       |
+| [User Token](https://help.sonatype.com/en/user-token-rest-api.html)                                                                 | :new_moon:  |      r76       |
+| [Vulnerability Analysis Details](https://help.sonatype.com/en/vulnerability-analysis-details-rest-api.html)                         | :new_moon:  |      r168      |
+| [Vulnerability Custom Attributes](https://help.sonatype.com/en/vulnerability-custom-attributes-rest-api.html)                       | :new_moon:  |      r161      |
+| [Vulnerability Details](https://help.sonatype.com/iqserver/automating/rest-apis/vulnerability-details-rest-api---v2)                | :new_moon:  |      r75       |
+| [Vulnerability Group](https://help.sonatype.com/en/vulnerability-group-rest-api.html)                                               | :new_moon:  |      162       |
+| [Webhooks](https://help.sonatype.com/en/lifecycle-webhooks-events-types.html)                                                       | :new_moon:  |                |
 
 _Legend_: :full_moon: complete :new_moon: untouched :waning_crescent_moon::last_quarter_moon::waning_gibbous_moon: partial support
 
